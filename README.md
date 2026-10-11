@@ -18,8 +18,8 @@ When the task grows, it calls in a team of specialist kittens.
 ![Rust](https://img.shields.io/badge/core-Rust-24292f)
 ![Terminal and desktop](https://img.shields.io/badge/interface-TUI_%2B_Desktop-24292f)
 
-**[Watch the tour](#see-it-in-motion)** ·
-**[What it can do](#what-gater-can-do)** ·
+**[See it in motion](#see-it-in-motion)** ·
+**[In the terminal](#in-the-terminal)** ·
 **[Meet the team](#when-the-task-grows-it-calls-the-team)** ·
 **[Request beta access](https://github.com/Gateton/Gater/issues/new?template=beta-access.yml)**
 
@@ -33,17 +33,21 @@ When the task grows, it calls in a team of specialist kittens.
 
 ## See it in motion
 
-A two-minute tour of the terminal, the desktop app, the team, Rooms, Workshop, checkpoints and themes. Click the poster to play the full video.
+A two-minute tour of the terminal, the desktop app, the team, Rooms, Workshop, checkpoints and themes. Here it is in 18 seconds, playing right here:
 
 <div align="center">
 
-[![Watch the Gater tour (2 min)](assets/video-poster.jpg)](assets/gater-promo.mp4)
+![Highlights from the Gater tour: terminal, plan mode, the team working live, Rooms, Kittens, competing attempts, Workshop and themes](assets/clips/tour-highlights.webp)
 
-<sub>The tour, in 18 seconds</sub>
-
-![Highlights from the Gater tour: terminal, plan mode, the team working live, Rooms, Kittens, competing attempts, Workshop and themes](assets/gater-promo-highlights.gif)
+**[Download the full 2-minute tour](assets/gater-promo.mp4?raw=true)** · MP4, 720p, 7.7 MB
 
 </div>
+
+<!--
+  Want an inline video player? GitHub only plays videos uploaded through its own editor.
+  Edit this file on github.com, drag assets/gater-promo.mp4 into the text box right here,
+  and keep the https://github.com/user-attachments/assets/... line GitHub inserts.
+-->
 
 <br>
 
@@ -64,11 +68,71 @@ A two-minute tour of the terminal, the desktop app, the team, Rooms, Workshop, c
 
 Ask for a change in plain language. Gater reads the relevant code, edits files, runs commands and checks the result. Tool activity streams as it happens, changes have inspectable diffs, and `/undo` can revert file changes from the last turn, including the team's work.
 
-Use the terminal TUI or **Gater Desktop**. Both share the same Rust core, sessions, configuration, memory and team, so what you start in one you can continue in the other.
+Gater lives in two places: your **terminal** and **Gater Desktop**. Both share the same Rust core, sessions, configuration, memory and team, so what you start in one you can continue in the other.
+
+### In the terminal
+
+The terminal UI is where Gater started, and it is a full citizen: streaming reasoning and tool calls, a side panel for the plan, the team and the files that changed, the whole alley, permissions, memory and themes. No window needed.
+
+![Gater in the terminal: reasoning, tool calls and test results streaming live, with the queue and the changed files in the side panel](assets/tui-working.webp)
+
+<div align="center">
+
+![The terminal at work: modes, thinking, reading, editing and checking](assets/clips/tour-terminal.webp)
+
+</div>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/tui-alley.webp" alt="The Agents tab with four kittens working in parallel: Luna, Simba, Michi and Nala"><br>
+      <b>The alley, in the side panel</b><br>
+      Four kittens working in parallel, each with its zone, status, tokens and cost.
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/tui-plan.webp" alt="A plan waiting for approval, with the alley's cats assigned to each step"><br>
+      <b>Plans you approve</b><br>
+      Review the steps, see who takes each one and choose YOLO or Turbo.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/tui-permission.webp" alt="A permission request for running cargo test, with approve, always and reject"><br>
+      <b>Permissions you can read</b><br>
+      Approve once, remember a command for the project, or say no.
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/tui-cat-room.webp" alt="Michi's room: its mission, its steps and the report it handed back"><br>
+      <b>Step into any cat's room</b><br>
+      Read exactly what a kitten did, and write to it while it works.
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>More of the terminal</b>: team board, themes, memory and session import</summary>
+
+<br>
+
+![The team board: zones, agreements and what each kitten posted](assets/tui-board.webp)
+
+![The theme picker with live preview: the whole interface already wears the tabby theme](assets/tui-themes.webp)
+
+![Light theme in the terminal](assets/tui-light.webp)
+
+![Memory notes waiting for approval](assets/tui-memory.webp)
+
+![Importing sessions from Pi, Claude Code, Codex, OpenCode and Jcode](assets/tui-sessions.webp)
+
+</details>
+
+### On the desktop
+
+**Gater Desktop** puts the same agent in a window: a Kanban for the plan, the alley's stage, Rooms, Workshop and checkpoints as visual views.
 
 ![Gater Desktop coding workflow](assets/working.webp)
 
-*The Desktop images in this README are design scenarios captured from Gater's actual interface, with example project data. They show the product UI, rather than recorded production sessions.*
+*The terminal images in this README are rendered straight from Gater's real terminal UI with example project data. The Desktop images are design scenarios captured from Gater's actual interface, also with example project data. Neither shows a recorded production session.*
 
 ### How a task flows
 
@@ -101,6 +165,12 @@ Gater splits independent work among kittens, gives each a mission, write zone an
 
 ![Alley team workspace](assets/alley.webp)
 
+<div align="center">
+
+![A team of cats working in parallel in the terminal, then a step into one cat's room](assets/clips/tour-team-terminal.webp)
+
+</div>
+
 ### Cattery · Your specialists, with memory
 
 Create persistent kittens with their own personality, model, skills and permissions. Their approved memories and work histories carry forward between tasks. Save a group of them as a **clowder** and bring it back whenever you need it.
@@ -121,6 +191,12 @@ Create persistent kittens with their own personality, model, skills and permissi
 Specialists propose independently, critique with evidence and revise their positions. A Room records its outcome, including objections or unresolved questions, so you can continue the discussion with Gater.
 
 ![A Grooming review Room](assets/room-grooming.webp)
+
+<div align="center">
+
+![Opening a Room, picking kittens, watching proposals get versioned and compared, and reading the Tale](assets/clips/tour-rooms.webp)
+
+</div>
 
 | Room mode | Use it to |
 | --- | --- |
@@ -151,6 +227,12 @@ Try different implementations in separate copies of the project. Compare changed
 4. **Check:** inspect the updated preview and undo the change if needed.
 
 ![Workshop with an element selected](assets/workshop.webp)
+
+<div align="center">
+
+![Workshop running an app inside Gater Desktop](assets/clips/tour-workshop.webp)
+
+</div>
 
 <br>
 
@@ -196,7 +278,7 @@ The pixel cat reacts to the agent's state, in the terminal and on the desktop. T
 | **Branch a conversation** | `/btw` asks a side question without losing the main thread. |
 | **Images and files** | Attach references and screenshots; vision depends on the selected model or configured vision provider. |
 | **Context you can see** | A live context meter and `/compact` to condense a long session. |
-| **18 themes** | Customize the terminal, diffs and pixel cat, with live preview. |
+| **18 themes** | Customize the terminal, diffs and pixel cat, with live preview. Dark and light, from the quiet cyan of `gater-dark` to `tabby`, `neon-alley` and `porcelain`. |
 | **Accessibility** | Keyboard-first, screen-reader friendly, reduced-motion aware, with contrast checked across all 18 themes in Desktop. |
 
 <details>

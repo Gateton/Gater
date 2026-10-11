@@ -18,8 +18,8 @@ Cuando la tarea crece, llama a un equipo de gatitos especialistas.
 ![Rust](https://img.shields.io/badge/núcleo-Rust-24292f)
 ![Terminal y escritorio](https://img.shields.io/badge/interfaz-TUI_%2B_Desktop-24292f)
 
-**[Ver el recorrido](#míralo-en-movimiento)** ·
-**[Qué puede hacer](#qué-puede-hacer-gater)** ·
+**[Míralo en movimiento](#míralo-en-movimiento)** ·
+**[En la terminal](#en-la-terminal)** ·
 **[Conoce al equipo](#cuando-la-tarea-crece-llama-al-equipo)** ·
 **[Pedir acceso a la beta](https://github.com/Gateton/Gater/issues/new?template=beta-access.yml)**
 
@@ -33,17 +33,21 @@ Cuando la tarea crece, llama a un equipo de gatitos especialistas.
 
 ## Míralo en movimiento
 
-Un recorrido de dos minutos por la terminal, la aplicación de escritorio, el equipo, los Rooms, Workshop, los checkpoints y los temas. Haz clic en el póster para ver el vídeo completo.
+Un recorrido de dos minutos por la terminal, la aplicación de escritorio, el equipo, los Rooms, Workshop, los checkpoints y los temas. Aquí está en 18 segundos, reproduciéndose en esta misma página:
 
 <div align="center">
 
-[![Ver el recorrido de Gater (2 min)](assets/video-poster.jpg)](assets/gater-promo.mp4)
+![Momentos del recorrido de Gater: terminal, modo Plan, el equipo trabajando en vivo, Rooms, Kittens, intentos que compiten, Workshop y temas](assets/clips/tour-highlights.webp)
 
-<sub>El recorrido, en 18 segundos</sub>
-
-![Momentos del recorrido de Gater: terminal, modo Plan, el equipo trabajando en vivo, Rooms, Kittens, intentos que compiten, Workshop y temas](assets/gater-promo-highlights.gif)
+**[Descarga el recorrido completo de 2 minutos](assets/gater-promo.mp4?raw=true)** · MP4, 720p, 7,7 MB
 
 </div>
+
+<!--
+  ¿Quieres un reproductor de vídeo integrado? GitHub solo reproduce vídeos subidos desde su propio editor.
+  Edita este archivo en github.com, arrastra assets/gater-promo.mp4 al cuadro de texto, justo aquí,
+  y conserva la línea https://github.com/user-attachments/assets/... que inserta GitHub.
+-->
 
 <br>
 
@@ -64,11 +68,71 @@ Un recorrido de dos minutos por la terminal, la aplicación de escritorio, el eq
 
 Pídele un cambio en lenguaje natural. Gater lee el código relevante, edita archivos, ejecuta comandos y comprueba el resultado. La actividad de las herramientas aparece mientras ocurre, los cambios tienen diffs que puedes inspeccionar, y `/undo` revierte los cambios de archivos del último turno, incluido el trabajo del equipo.
 
-Usa la TUI en la terminal o **Gater Desktop**. Las dos comparten el mismo núcleo en Rust, las sesiones, la configuración, la memoria y el equipo, así que lo que empiezas en una lo puedes seguir en la otra.
+Gater vive en dos sitios: tu **terminal** y **Gater Desktop**. Los dos comparten el mismo núcleo en Rust, las sesiones, la configuración, la memoria y el equipo, así que lo que empiezas en uno lo puedes seguir en el otro.
+
+### En la terminal
+
+La TUI es donde nació Gater, y es una interfaz completa: razonamiento y llamadas a herramientas en vivo, un panel lateral con el plan, el equipo y los archivos que cambiaron, todo el callejón, los permisos, la memoria y los temas. No necesitas ninguna ventana.
+
+![Gater en la terminal: razonamiento, llamadas a herramientas y resultados de pruebas en vivo, con la cola y los archivos cambiados en el panel lateral](assets/tui-working.webp)
+
+<div align="center">
+
+![La terminal trabajando: modos, pensar, leer, editar y comprobar](assets/clips/tour-terminal.webp)
+
+</div>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/tui-alley.webp" alt="La pestaña Agents con cuatro gatitos trabajando en paralelo: Luna, Simba, Michi y Nala"><br>
+      <b>El callejón, en el panel lateral</b><br>
+      Cuatro gatitos en paralelo, cada uno con su zona, su estado, sus tokens y su costo.
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/tui-plan.webp" alt="Un plan esperando aprobación, con los gatos del callejón asignados a cada paso"><br>
+      <b>Planes que tú apruebas</b><br>
+      Revisa los pasos, mira quién toma cada uno y elige YOLO o Turbo.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/tui-permission.webp" alt="Una solicitud de permiso para correr cargo test, con aprobar, siempre y rechazar"><br>
+      <b>Permisos que se entienden</b><br>
+      Aprueba una vez, recuerda un comando para el proyecto o di que no.
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/tui-cat-room.webp" alt="El cuarto de Michi: su misión, sus pasos y el informe que entregó"><br>
+      <b>Entra al cuarto de cualquier gato</b><br>
+      Lee exactamente qué hizo un gatito y escríbele mientras trabaja.
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>Más de la terminal</b>: tablero del equipo, temas, memoria e importación de sesiones</summary>
+
+<br>
+
+![El tablero del equipo: zonas, acuerdos y lo que publicó cada gatito](assets/tui-board.webp)
+
+![El selector de temas con vista previa en vivo: toda la interfaz ya lleva el tema tabby](assets/tui-themes.webp)
+
+![Tema claro en la terminal](assets/tui-light.webp)
+
+![Notas de memoria esperando aprobación](assets/tui-memory.webp)
+
+![Importar sesiones de Pi, Claude Code, Codex, OpenCode y Jcode](assets/tui-sessions.webp)
+
+</details>
+
+### En el escritorio
+
+**Gater Desktop** pone al mismo agente en una ventana: un Kanban para el plan, el escenario del callejón, los Rooms, Workshop y los checkpoints como vistas visuales.
 
 ![Flujo de trabajo en Gater Desktop](assets/working.webp)
 
-*Las imágenes de Desktop de este README son escenarios de diseño capturados de la interfaz real de Gater, con datos de proyecto de ejemplo. Muestran la interfaz del producto, no sesiones de producción grabadas.*
+*Las imágenes de la terminal de este README están renderizadas directamente desde la TUI real de Gater, con datos de proyecto de ejemplo. Las de Desktop son escenarios de diseño capturados de la interfaz real de Gater, también con datos de ejemplo. Ninguna muestra una sesión de producción grabada.*
 
 ### Cómo avanza una tarea
 
@@ -101,6 +165,12 @@ Gater reparte el trabajo independiente entre gatitos, le da a cada uno una misi�
 
 ![Espacio de trabajo del equipo en Alley](assets/alley.webp)
 
+<div align="center">
+
+![Un equipo de gatos trabajando en paralelo en la terminal y luego un paso al cuarto de uno de ellos](assets/clips/tour-team-terminal.webp)
+
+</div>
+
 ### Cattery · Tus especialistas, con memoria
 
 Crea kittens persistentes con su propia personalidad, modelo, skills y permisos. Sus recuerdos aprobados y sus historiales de trabajo se mantienen entre tareas. Guarda un grupo como **clowder** y vuelve a llamarlo cuando lo necesites.
@@ -121,6 +191,12 @@ Crea kittens persistentes con su propia personalidad, modelo, skills y permisos.
 Los especialistas proponen por separado, se critican con evidencia y revisan sus posiciones. Un Room registra su desenlace, con las objeciones o dudas que queden, para que puedas seguir la conversación con Gater.
 
 ![Un Room de revisión en modo Grooming](assets/room-grooming.webp)
+
+<div align="center">
+
+![Abrir un Room, elegir kittens, ver cómo cada propuesta se versiona y se compara, y leer el Tale](assets/clips/tour-rooms.webp)
+
+</div>
 
 | Modo de Room | Úsalo para |
 | --- | --- |
@@ -151,6 +227,12 @@ Prueba implementaciones distintas en copias separadas del proyecto. Compara arch
 4. **Check:** revisa la vista actualizada y deshaz el cambio si hace falta.
 
 ![Workshop con un elemento seleccionado](assets/workshop.webp)
+
+<div align="center">
+
+![Workshop corriendo una app dentro de Gater Desktop](assets/clips/tour-workshop.webp)
+
+</div>
 
 <br>
 
@@ -196,7 +278,7 @@ El gato de píxeles reacciona al estado del agente, en la terminal y en el escri
 | **Bifurca una conversación** | `/btw` hace una pregunta aparte sin perder el hilo principal. |
 | **Imágenes y archivos** | Adjunta referencias y capturas; la visión depende del modelo elegido o del proveedor de visión configurado. |
 | **Contexto a la vista** | Un medidor de contexto en vivo y `/compact` para condensar una sesión larga. |
-| **18 temas** | Personaliza la terminal, los diffs y el gato de píxeles, con vista previa en vivo. |
+| **18 temas** | Personaliza la terminal, los diffs y el gato de píxeles, con vista previa en vivo. Oscuros y claros, del cian tranquilo de `gater-dark` a `tabby`, `neon-alley` y `porcelain`. |
 | **Accesibilidad** | Pensado para teclado, compatible con lectores de pantalla y con movimiento reducido, y con el contraste comprobado en los 18 temas de Desktop. |
 
 <details>
