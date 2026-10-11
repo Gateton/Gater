@@ -1,13 +1,3 @@
-
-
-https://github.com/user-attachments/assets/ae112e28-9051-4066-a40d-d3063681eeab
-
-
-
-https://github.com/user-attachments/assets/a452abb6-cef1-4f9c-b9bd-84255028dabf
-
-
-
 <div align="center">
 
 <img src="assets/social-preview.png" alt="Gater: your coding companion, with a whole team of cats" width="720">
@@ -45,19 +35,13 @@ When the task grows, it calls in a team of specialist kittens.
 
 A two-minute tour of the terminal, the desktop app, the team, Rooms, Workshop, checkpoints and themes.
 
+https://github.com/user-attachments/assets/a452abb6-cef1-4f9c-b9bd-84255028dabf
+
 <div align="center">
 
-[![Gater tour: the terminal, the desktop app, the team, Rooms, Workshop, checkpoints and themes](assets/video-poster.jpg)](assets/gater-promo.mp4?raw=true)
-
-**[Download the full 2-minute tour](assets/gater-promo.mp4?raw=true)** · MP4, 720p, 7.7 MB
+<sub>Prefer a file? <a href="assets/gater-promo.mp4?raw=true">Download the tour</a> (MP4, 720p, 7.7 MB)</sub>
 
 </div>
-
-<!--
-  Want an inline video player? GitHub only plays videos uploaded through its own editor.
-  Edit this file on github.com, drag assets/gater-promo.mp4 into the text box right here,
-  and keep the https://github.com/user-attachments/assets/... line GitHub inserts.
--->
 
 <br>
 

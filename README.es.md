@@ -35,19 +35,13 @@ Cuando la tarea crece, llama a un equipo de gatitos especialistas.
 
 Un recorrido de dos minutos por la terminal, la aplicación de escritorio, el equipo, los Rooms, Workshop, los checkpoints y los temas.
 
+https://github.com/user-attachments/assets/a452abb6-cef1-4f9c-b9bd-84255028dabf
+
 <div align="center">
 
-[![Recorrido de Gater: la terminal, la aplicación de escritorio, el equipo, los Rooms, Workshop, los checkpoints y los temas](assets/video-poster.jpg)](assets/gater-promo.mp4?raw=true)
-
-**[Descarga el recorrido completo de 2 minutos](assets/gater-promo.mp4?raw=true)** · MP4, 720p, 7,7 MB
+<sub>¿Prefieres el archivo? <a href="assets/gater-promo.mp4?raw=true">Descarga el recorrido</a> (MP4, 720p, 7,7 MB)</sub>
 
 </div>
-
-<!--
-  ¿Quieres un reproductor de vídeo integrado? GitHub solo reproduce vídeos subidos desde su propio editor.
-  Edita este archivo en github.com, arrastra assets/gater-promo.mp4 al cuadro de texto, justo aquí,
-  y conserva la línea https://github.com/user-attachments/assets/... que inserta GitHub.
--->
 
 <br>
 
