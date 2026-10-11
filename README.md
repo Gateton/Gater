@@ -178,7 +178,7 @@ Create persistent kittens with their own personality, model, skills and permissi
 
 Specialists propose independently, critique with evidence and revise their positions. A Room records its outcome, including objections or unresolved questions, so you can continue the discussion with Gater.
 
-![A Grooming review Room](assets/room-grooming.webp)
+![A Caterwaul Room: three kittens propose, take positions and land on a majority, with every proposal versioned](assets/room-caterwaul.webp)
 
 
 | Room mode | Use it to |

@@ -178,7 +178,7 @@ Crea kittens persistentes con su propia personalidad, modelo, skills y permisos.
 
 Los especialistas proponen por separado, se critican con evidencia y revisan sus posiciones. Un Room registra su desenlace, con las objeciones o dudas que queden, para que puedas seguir la conversación con Gater.
 
-![Un Room de revisión en modo Grooming](assets/room-grooming.webp)
+![Un Room en modo Caterwaul: tres kittens proponen, toman posición y llegan a una mayoría, con cada propuesta versionada](assets/room-caterwaul.webp)
 
 
 | Modo de Room | Úsalo para |
