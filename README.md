@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/a452abb6-cef1-4f9c-b9bd-84255028dabf
 
 | | | | |
 | :---: | :---: | :---: | :---: |
-| **2**<br>interfaces, one core<br><sub>terminal and desktop</sub> | **4**<br>work modes<br><sub>Plan, Normal, YOLO, Turbo</sub> | **9**<br>helpers per task<br><sub>4 working at once</sub> | **6**<br>kittens included<br><sub>and you can make more</sub> |
+| **2**<br>interfaces, one core<br><sub>terminal and desktop</sub> | **4**<br>work modes<br><sub>Plan, Normal, YOLO, Turbo</sub> | **9**<br>helpers per task<br><sub>4 working at once</sub> | **8**<br>kittens included<br><sub>and you can make more</sub> |
 | **6**<br>Room modes<br><sub>to debate before deciding</sub> | **2–3**<br>competing attempts<br><sub>compared on evidence</sub> | **18**<br>themes<br><sub>terminal, diffs and cat</sub> | **5**<br>agent histories<br>you can import<br><sub>originals stay untouched</sub> |
 
 </div>
@@ -159,16 +159,20 @@ Gater splits independent work among kittens, gives each a mission, write zone an
 
 Create persistent kittens with their own personality, model, skills and permissions. Their approved memories and work histories carry forward between tasks. Save a group of them as a **clowder** and bring it back whenever you need it.
 
-<img width="2519" height="1367" alt="image" src="https://github.com/user-attachments/assets/175d4c32-a705-4692-9375-4ff5c0c3e339" />
+<img width="2519" height="1367" alt="The Cattery in Gater Desktop: the eight kittens that come by default, each with its role, traits and what to call it for" src="https://github.com/user-attachments/assets/175d4c32-a705-4692-9375-4ff5c0c3e339" />
 
-| Starter kitten | Specialty | What it does |
+**Eight kittens come ready on day one.** Gater calls them by name when a task fits, and you can hand any of them a task yourself.
+
+| Kitten | Role | What it does |
 | --- | --- | --- |
-| **Scout** | Research | Answers by reading code, docs and the web, with a source for every claim. |
-| **Razor** | Code review | Hunts for real bugs and missing cases, and verifies each finding. |
-| **Trace** | Debugging | Reproduces, forms hypotheses, isolates, fixes the cause and leaves a regression test. |
-| **Probe** | Testing | Writes and runs tests that fail for the right reason. |
-| **Pixel** | UI | Reviews running interfaces: states, contrast, narrow windows, keyboard use. |
-| **Hiss** | Challenging assumptions | Looks for the weakest assumption, the forgotten case and the cheaper alternative. |
+| **Atlas** | Backend | Designs and builds the logic, APIs and data behind an app: contract first, safe migrations, validation at the edge, clear errors, security and tests against a real database. Call it for endpoints, business rules, schemas, queries, jobs and integrations. |
+| **Tinker** | Frontend | Writes interface code in the project's stack (Angular, React, Vue, Svelte or plain HTML) with strict TypeScript, accessibility and tests, and checks it in the browser. |
+| **Pixel** | UI/UX | Decides how an interface looks and works, and checks it on screen: visual direction, `DESIGN.md` and tokens, layouts, critique with screenshots, accessibility. |
+| **Probe** | Tester | Writes and runs tests that fail for the right reason: edge cases, error paths and regressions, in the project's own style. |
+| **Razor** | Reviewer | Reviews changes for real bugs, broken contracts and missing cases, and verifies each finding before raising it. |
+| **Trace** | Debugger | Finds the cause of failures: reproduces, forms hypotheses, isolates with logs or bisect, fixes the root cause and adds a regression test. |
+| **Scout** | Researcher | Answers questions by reading the code, the docs and the web, and cites a source for every claim. |
+| **Hiss** | Skeptic | Challenges plans and claims: finds the weakest assumption, the missing case and the cheaper alternative. |
 
 ### Rooms · Debate before deciding
 

@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/a452abb6-cef1-4f9c-b9bd-84255028dabf
 
 | | | | |
 | :---: | :---: | :---: | :---: |
-| **2**<br>interfaces, un mismo núcleo<br><sub>terminal y escritorio</sub> | **4**<br>modos de trabajo<br><sub>Plan, Normal, YOLO, Turbo</sub> | **9**<br>ayudantes por tarea<br><sub>4 trabajando a la vez</sub> | **6**<br>kittens incluidos<br><sub>y puedes crear más</sub> |
+| **2**<br>interfaces, un mismo núcleo<br><sub>terminal y escritorio</sub> | **4**<br>modos de trabajo<br><sub>Plan, Normal, YOLO, Turbo</sub> | **9**<br>ayudantes por tarea<br><sub>4 trabajando a la vez</sub> | **8**<br>kittens incluidos<br><sub>y puedes crear más</sub> |
 | **6**<br>modos de Room<br><sub>para debatir antes de decidir</sub> | **2–3**<br>intentos que compiten<br><sub>comparados con evidencia</sub> | **18**<br>temas<br><sub>terminal, diffs y gato</sub> | **5**<br>historiales de otros agentes<br><sub>importables sin tocar los originales</sub> |
 
 </div>
@@ -159,16 +159,20 @@ Gater reparte el trabajo independiente entre gatitos, le da a cada uno una misi�
 
 Crea kittens persistentes con su propia personalidad, modelo, skills y permisos. Sus recuerdos aprobados y sus historiales de trabajo se mantienen entre tareas. Guarda un grupo como **clowder** y vuelve a llamarlo cuando lo necesites.
 
-![Perfiles de especialistas en el Cattery](assets/kittens.webp)
+<img width="2519" height="1367" alt="El Cattery en Gater Desktop: los ocho kittens que vienen por defecto, cada uno con su rol, sus rasgos y para qué llamarlo" src="https://github.com/user-attachments/assets/175d4c32-a705-4692-9375-4ff5c0c3e339" />
 
-| Kitten de inicio | Especialidad | Qué hace |
+**Ocho kittens vienen listos desde el primer día.** Gater los llama por su nombre cuando una tarea les encaja, y tú también puedes darle una tarea a cualquiera.
+
+| Kitten | Rol | Qué hace |
 | --- | --- | --- |
-| **Scout** | Investigación | Responde leyendo código, docs y la web, con una fuente por cada afirmación. |
-| **Razor** | Revisión de código | Busca bugs reales y casos que faltan, y verifica cada hallazgo. |
-| **Trace** | Depuración | Reproduce, plantea hipótesis, aísla, arregla la causa y deja una prueba de regresión. |
-| **Probe** | Pruebas | Escribe y corre pruebas que fallan por la razón correcta. |
-| **Pixel** | Interfaz | Revisa interfaces en marcha: estados, contraste, ventanas estrechas, teclado. |
-| **Hiss** | Cuestionar supuestos | Busca el supuesto más débil, el caso olvidado y la alternativa más barata. |
+| **Atlas** | Backend | Diseña y construye la lógica, las APIs y los datos de una app: contrato primero, migraciones seguras, validación en el borde, errores claros, seguridad y pruebas contra una base de datos real. Llámalo para endpoints, reglas de negocio, esquemas, consultas, tareas e integraciones. |
+| **Tinker** | Frontend | Escribe código de interfaz en el stack del proyecto (Angular, React, Vue, Svelte o HTML puro) con TypeScript estricto, accesibilidad y pruebas, y lo comprueba en el navegador. |
+| **Pixel** | UI/UX | Decide cómo se ve y cómo funciona una interfaz, y lo comprueba en pantalla: dirección visual, `DESIGN.md` y tokens, composición, crítica con capturas, accesibilidad. |
+| **Probe** | Pruebas | Escribe y corre pruebas que fallan por la razón correcta: casos límite, caminos de error y regresiones, al estilo del propio proyecto. |
+| **Razor** | Revisión | Revisa cambios buscando bugs reales, contratos rotos y casos que faltan, y verifica cada hallazgo antes de plantearlo. |
+| **Trace** | Depuración | Encuentra la causa de los fallos: reproduce, plantea hipótesis, aísla con logs o bisect, arregla la causa raíz y añade una prueba de regresión. |
+| **Scout** | Investigación | Responde leyendo el código, la documentación y la web, y cita una fuente por cada afirmación. |
+| **Hiss** | Escéptico | Cuestiona planes y afirmaciones: busca el supuesto más débil, el caso olvidado y la alternativa más barata. |
 
 ### Rooms · Debatir antes de decidir
 
