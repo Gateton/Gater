@@ -33,11 +33,11 @@ When the task grows, it calls in a team of specialist kittens.
 
 ## See it in motion
 
-A two-minute tour of the terminal, the desktop app, the team, Rooms, Workshop, checkpoints and themes. Here it is in 18 seconds, playing right here:
+A two-minute tour of the terminal, the desktop app, the team, Rooms, Workshop, checkpoints and themes.
 
 <div align="center">
 
-![Highlights from the Gater tour: terminal, plan mode, the team working live, Rooms, Kittens, competing attempts, Workshop and themes](assets/clips/tour-highlights.webp)
+[![Gater tour: the terminal, the desktop app, the team, Rooms, Workshop, checkpoints and themes](assets/video-poster.jpg)](assets/gater-promo.mp4?raw=true)
 
 **[Download the full 2-minute tour](assets/gater-promo.mp4?raw=true)** · MP4, 720p, 7.7 MB
 
@@ -76,11 +76,6 @@ The terminal UI is where Gater started, and it is a full citizen: streaming reas
 
 ![Gater in the terminal: reasoning, tool calls and test results streaming live, with the queue and the changed files in the side panel](assets/tui-working.webp)
 
-<div align="center">
-
-![The terminal at work: modes, thinking, reading, editing and checking](assets/clips/tour-terminal.webp)
-
-</div>
 
 <table>
   <tr>
@@ -165,11 +160,6 @@ Gater splits independent work among kittens, gives each a mission, write zone an
 
 ![Alley team workspace](assets/alley.webp)
 
-<div align="center">
-
-![A team of cats working in parallel in the terminal, then a step into one cat's room](assets/clips/tour-team-terminal.webp)
-
-</div>
 
 ### Cattery · Your specialists, with memory
 
@@ -192,11 +182,6 @@ Specialists propose independently, critique with evidence and revise their posit
 
 ![A Grooming review Room](assets/room-grooming.webp)
 
-<div align="center">
-
-![Opening a Room, picking kittens, watching proposals get versioned and compared, and reading the Tale](assets/clips/tour-rooms.webp)
-
-</div>
 
 | Room mode | Use it to |
 | --- | --- |
@@ -228,11 +213,6 @@ Try different implementations in separate copies of the project. Compare changed
 
 ![Workshop with an element selected](assets/workshop.webp)
 
-<div align="center">
-
-![Workshop running an app inside Gater Desktop](assets/clips/tour-workshop.webp)
-
-</div>
 
 <br>
 

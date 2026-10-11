@@ -33,11 +33,11 @@ Cuando la tarea crece, llama a un equipo de gatitos especialistas.
 
 ## Míralo en movimiento
 
-Un recorrido de dos minutos por la terminal, la aplicación de escritorio, el equipo, los Rooms, Workshop, los checkpoints y los temas. Aquí está en 18 segundos, reproduciéndose en esta misma página:
+Un recorrido de dos minutos por la terminal, la aplicación de escritorio, el equipo, los Rooms, Workshop, los checkpoints y los temas.
 
 <div align="center">
 
-![Momentos del recorrido de Gater: terminal, modo Plan, el equipo trabajando en vivo, Rooms, Kittens, intentos que compiten, Workshop y temas](assets/clips/tour-highlights.webp)
+[![Recorrido de Gater: la terminal, la aplicación de escritorio, el equipo, los Rooms, Workshop, los checkpoints y los temas](assets/video-poster.jpg)](assets/gater-promo.mp4?raw=true)
 
 **[Descarga el recorrido completo de 2 minutos](assets/gater-promo.mp4?raw=true)** · MP4, 720p, 7,7 MB
 
@@ -76,11 +76,6 @@ La TUI es donde nació Gater, y es una interfaz completa: razonamiento y llamada
 
 ![Gater en la terminal: razonamiento, llamadas a herramientas y resultados de pruebas en vivo, con la cola y los archivos cambiados en el panel lateral](assets/tui-working.webp)
 
-<div align="center">
-
-![La terminal trabajando: modos, pensar, leer, editar y comprobar](assets/clips/tour-terminal.webp)
-
-</div>
 
 <table>
   <tr>
@@ -165,11 +160,6 @@ Gater reparte el trabajo independiente entre gatitos, le da a cada uno una misi�
 
 ![Espacio de trabajo del equipo en Alley](assets/alley.webp)
 
-<div align="center">
-
-![Un equipo de gatos trabajando en paralelo en la terminal y luego un paso al cuarto de uno de ellos](assets/clips/tour-team-terminal.webp)
-
-</div>
 
 ### Cattery · Tus especialistas, con memoria
 
@@ -192,11 +182,6 @@ Los especialistas proponen por separado, se critican con evidencia y revisan sus
 
 ![Un Room de revisión en modo Grooming](assets/room-grooming.webp)
 
-<div align="center">
-
-![Abrir un Room, elegir kittens, ver cómo cada propuesta se versiona y se compara, y leer el Tale](assets/clips/tour-rooms.webp)
-
-</div>
 
 | Modo de Room | Úsalo para |
 | --- | --- |
@@ -228,11 +213,6 @@ Prueba implementaciones distintas en copias separadas del proyecto. Compara arch
 
 ![Workshop con un elemento seleccionado](assets/workshop.webp)
 
-<div align="center">
-
-![Workshop corriendo una app dentro de Gater Desktop](assets/clips/tour-workshop.webp)
-
-</div>
 
 <br>
 
