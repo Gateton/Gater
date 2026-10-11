@@ -1,0 +1,66 @@
+name: Report a bug
+description: Something in Gater did not work as expected.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports are **public**. Remove API keys, tokens and private code from anything you paste.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did Gater do instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Terminal (TUI)
+        - Desktop app
+        - Alley (team)
+        - Cattery (kittens)
+        - Rooms
+        - Attempts
+        - Workshop
+        - Memory, decisions or checkpoints
+        - Providers or usage
+        - Session import
+        - Installation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Gater version
+      description: Shown in the Desktop status bar, or run `gater doctor`.
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Ubuntu 24.04, Windows 11..."
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: Model provider and model
+      placeholder: "Anthropic, OpenAI, DeepSeek..."
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Optional. Please redact anything private.

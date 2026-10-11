@@ -1,0 +1,40 @@
+name: Suggest an improvement
+description: Share an idea for making Gater better.
+title: "Idea: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation, not just the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Gater to do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of Gater?
+      options:
+        - Terminal (TUI)
+        - Desktop app
+        - Alley (team)
+        - Cattery (kittens)
+        - Rooms
+        - Attempts
+        - Workshop
+        - Memory, decisions or checkpoints
+        - Providers or usage
+        - Skills, hooks or MCP
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have tried

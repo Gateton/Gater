@@ -1,0 +1,52 @@
+name: Request beta access
+description: Ask to join the Gater private beta.
+title: "Beta access: "
+labels: ["beta-access"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in Gater. Requests are **public**, so please do not include API keys, private project files or personal contact details. Requesting access does not guarantee an invitation.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      description: Gater is Linux first, with Windows support.
+      options:
+        - Linux
+        - Windows
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: interface
+    attributes:
+      label: How would you use it?
+      options:
+        - Terminal (TUI)
+        - Desktop app
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: tools
+    attributes:
+      label: Coding tools and model providers you use today
+      placeholder: "Claude Code, Codex, OpenCode, Anthropic, OpenAI, DeepSeek..."
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: A real task you would like to try with Gater
+      description: Describe it without sharing private code.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand this request is public and I have not included secrets or private information.
+          required: true
