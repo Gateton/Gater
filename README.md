@@ -1,5 +1,13 @@
 
 
+https://github.com/user-attachments/assets/ae112e28-9051-4066-a40d-d3063681eeab
+
+
+
+https://github.com/user-attachments/assets/a452abb6-cef1-4f9c-b9bd-84255028dabf
+
+
+
 <div align="center">
 
 <img src="assets/social-preview.png" alt="Gater: your coding companion, with a whole team of cats" width="720">
