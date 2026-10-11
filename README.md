@@ -159,7 +159,7 @@ Gater splits independent work among kittens, gives each a mission, write zone an
 
 Create persistent kittens with their own personality, model, skills and permissions. Their approved memories and work histories carry forward between tasks. Save a group of them as a **clowder** and bring it back whenever you need it.
 
-![Cattery specialist profiles](assets/kittens.webp)
+<img width="2519" height="1367" alt="image" src="https://github.com/user-attachments/assets/175d4c32-a705-4692-9375-4ff5c0c3e339" />
 
 | Starter kitten | Specialty | What it does |
 | --- | --- | --- |
